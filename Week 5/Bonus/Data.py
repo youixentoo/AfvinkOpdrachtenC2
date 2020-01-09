@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 """
 Created on Thu Dec 12 10:07:23 2019
@@ -19,16 +18,16 @@ def dictionaries(choice="DNA"):
                 'att': 'I', 'act': 'T', 'aat': 'N', 'agt': 'S',
                 'atc': 'I', 'acc': 'T', 'aac': 'N', 'agc': 'S',
                 'ata': 'I', 'aca': 'T', 'aaa': 'K', 'aga': 'R',
-                'atg': 'M', 'acg': 'T', 'aag': 'K', 'agg': 'R', 
+                'atg': 'M', 'acg': 'T', 'aag': 'K', 'agg': 'R',
                 'gtt': 'V', 'gct': 'A', 'gat': 'D', 'ggt': 'G',
                 'gtc': 'V', 'gcc': 'A', 'gac': 'D', 'ggc': 'G',
                 'gta': 'V', 'gca': 'A', 'gaa': 'E', 'gga': 'G',
                 'gtg': 'V', 'gcg': 'A', 'gag': 'E', 'ggg': 'G'
                 }
-        
+
     elif choice == "RNA":
         return  {"T": "A", "t": "a", "A": "U", "a": "u", "G": "C", "g": "c", "C": "G", "c": "g"}
-    
+
     else:
         return  {"Ala": ["GCU", "GCC", "GCA", "GCG"],
                  "Arg": ["CGU", "CGC", "CGA", "CGG", "AGA", "AGG"],
@@ -73,16 +72,16 @@ def dictionaries(choice="DNA"):
                 'att': 'I', 'act': 'T', 'aat': 'N', 'agt': 'S',
                 'atc': 'I', 'acc': 'T', 'aac': 'N', 'agc': 'S',
                 'ata': 'I', 'aca': 'T', 'aaa': 'K', 'aga': 'R',
-                'atg': 'M', 'acg': 'T', 'aag': 'K', 'agg': 'R', 
+                'atg': 'M', 'acg': 'T', 'aag': 'K', 'agg': 'R',
                 'gtt': 'V', 'gct': 'A', 'gat': 'D', 'ggt': 'G',
                 'gtc': 'V', 'gcc': 'A', 'gac': 'D', 'ggc': 'G',
                 'gta': 'V', 'gca': 'A', 'gaa': 'E', 'gga': 'G',
                 'gtg': 'V', 'gcg': 'A', 'gag': 'E', 'ggg': 'G'
                 }
-        
+
     elif choice == "RNA":
         return  {"T": "A", "t": "a", "A": "U", "a": "u", "G": "C", "g": "c", "C": "G", "c": "g"}
-    
+
     else:
         return  {"Ala": ["GCU", "GCC", "GCA", "GCG"],
                  "Arg": ["CGU", "CGC", "CGA", "CGG", "AGA", "AGG"],

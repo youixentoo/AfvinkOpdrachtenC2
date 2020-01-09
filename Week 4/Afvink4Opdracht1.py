@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 """
 Created on Tue Dec  3 14:06:25 2019
@@ -74,14 +73,14 @@ import fix_linebreaks
 def main():
     headers, sequences = lees_fasta_bestand()
     irriteer_en_controleer(sequences, headers)
-    
-    
+
+
 def lees_fasta_bestand():
     file_name = "Mus_musculus.GRCm38.pep.all.fa"
     location = "Data"
     file = open(location+"/"+file_name)
     return fix_linebreaks.get_headers_and_sequences(file, ">")
-        
+
 
 def irriteer_en_controleer(data, headers):
     if not len(data) == 0:
@@ -98,7 +97,7 @@ def is_eiwitsequentie(sequentie):
     else:
         #print("Geen eiwitsequentie")
         return True
-    
+
 
 def consensus(sequentie):
     result = re.search("MCNSSC[MV]GGMNRR", sequentie)
@@ -106,8 +105,8 @@ def consensus(sequentie):
         return True
     else:
         return False
-    
-  
+
+
 if __name__ == "__main__":
     main()
 >>>>>>> 3473eac1e1983baecde5bed80d0f493b48f492fb
